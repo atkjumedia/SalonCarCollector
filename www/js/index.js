@@ -44,7 +44,10 @@ var app = {
 			console.log('lastSync:' + JSON.stringify(date));
 			if( date && date.syncDate && date.syncDate > 0) {
 				app.firstTime = false;
-				if (date.syncDate < ((new Date().getTime()) / 1000 - 60 * 60 * 24 * 5)) 
+				var sd=date.syncDate;
+				if( date.syncDate > Math.pow(10,10))
+					sd = date.syncDate / 1000;
+				if (sd < ((new Date().getTime()) / 1000 - 60 * 60 * 24 * 5)) 
 					//force sync after 5 days not synced
 					app.initSync();
 				}
