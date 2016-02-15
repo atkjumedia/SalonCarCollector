@@ -124,8 +124,8 @@ var app = {
 			app.checkStartPage();
 		}
 	},
-	getString(identifier) {
-		var t =texts[identifier]
+	getString: function(ident) {
+		var t =texts[ident]
 		return t[app.lang];
 	},
 
