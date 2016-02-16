@@ -16,7 +16,7 @@ var app = {
 	lang: "",
 	percent: -1,
 	firstTime: true,
-	progressToaster = 0;
+	progressToaster: 0,
 
     initialize: function() {
 		this.lang = navigator.language.slice(0,2);
