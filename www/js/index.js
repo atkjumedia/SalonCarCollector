@@ -16,6 +16,7 @@ var app = {
 	lang: "",
 	percent: -1,
 	firstTime: true,
+	progressToaster = 0;
 
     initialize: function() {
 		this.lang = navigator.language.slice(0,2);
@@ -72,7 +73,7 @@ var app = {
 		console.log('startSync:');
 		app.percent=0;
 		app.toast("sync");
-		window.setTimeout(app.scheduledToasts, 1500);
+		app.progressToaster =window.setTimeout(app.scheduledToasts, 1500);
 		cordova.plugins.DCSync.performSync().then(function() {
 		console.log('sync start requested:');
 		}, function(a) {app.syncfail(a)});
@@ -89,11 +90,11 @@ var app = {
 		if( app.percent != -1 ) {
 			var text = app.getString("sync");
 			if( app.percent > 0) {
-				text = text + ": " + app.percent;
+				text = text + ": " + app.percent + " %";
 			}
-			text = text + " %...";
+			text = text + " ...";
 			window.plugins.toast.show(text, "short", 'bottom', function(a){console.log('toast success: ' + a)}, function(b){console.log('toast error: ' + b)});
-			window.setTimeout( app.scheduledToasts, 1500);
+			app.progressToaster = window.setTimeout( app.scheduledToasts, 1500);
 		}
 	},
 
@@ -111,10 +112,15 @@ var app = {
 	},
 	synccompleted: function(pro) {
 		console.log('sync completed:');
+		if( app.progressToaster) 
+			window.clearTimeout(app.progressToaster);
+
 		app.checkStartPage();
 	},
 	syncfail: function(a) {
 		console.log('sync failed: ' + JSON.stringify(a));
+		if( app.progressToaster) 
+			window.clearTimeout(app.progressToaster);
 		app.toast("fail");
 		//retry after timeout
 		if( app.firstTime ) {
