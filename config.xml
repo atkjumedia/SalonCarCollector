@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="at.kju.saloncarcollector" version="1.0.2.1" xmlns="http://www.w3.org/ns/widgets"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="at.kju.saloncarcollector" version="1.0.2" xmlns="http://www.w3.org/ns/widgets"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>Salon Car Collector</name>
   <description>
         CO2-Tieferlegen App including Salon Car Collector
@@ -10,8 +10,8 @@
   <content src="index.html"/>	
   <plugin name="cordova-plugin-whitelist" spec="1.2.0" />
   <plugin name="cordova-plugin-dcsync" source="pgb"/>
-  <plugin name="cordova-plugin-ibeacon" source="npm" version="3.4.0"/>
-  <!--<plugin name="com.unarin.cordova.beacon" spec="3.2.1" source="pgb" />-->
+  <!--<plugin name="cordova-plugin-ibeacon" source="npm" version="3.4.0"/> -->
+  <plugin name="com.unarin.cordova.beacon" spec="3.2.1" source="pgb" />
   <plugin name="com.ionic.keyboard" spec="1.0.3" source="pgb"/>
   <plugin name="de.appplant.cordova.plugin.local-notification-ios9-fix" spec="0.8.2" source="pgb"/>
   <plugin name="de.appplant.cordova.plugin.background-mode" spec="0.6.4" source="pgb"/>
@@ -20,6 +20,7 @@
   <plugin name="org.apache.cordova.splashscreen" source="pgb" spec="1.0.0" />
   
   <preference name="permissions" value="none"/>
+  <preference name="deployment-target" value="8.0" />
   <feature name="http://api.phonegap.com/1.0/geolocation" />
 	
   <access origin="*"/>
