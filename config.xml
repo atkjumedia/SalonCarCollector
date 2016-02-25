@@ -18,8 +18,8 @@
   <plugin name="cordova-plugin-x-toast" spec="2.3.2" />
   <plugin name="cordova-plugin-inappbrowser" spec="1.2.0" />
   <plugin name="org.apache.cordova.splashscreen" source="pgb" spec="1.0.0" />
-  
-  <preference name="permissions" value="none"/>
+
+ <!-- <preference name="permissions" value="none"/>-->
   <feature name="http://api.phonegap.com/1.0/geolocation" />
 	
   <access origin="*"/>
