@@ -20,6 +20,7 @@
   <plugin name="cordova-plugin-google-analytics" source="npm"/>
   <plugin name="cordova-plugin-console" source="npm"/>
   <plugin name="cordova-plugin-geolocation" source="npm"/>
+  <plugin name="cordova-plugin-app-version" source="npm" />
   <!--<plugin name="cordova-plugin-statusbar" source="npm"/>-->
 
   <!-- <preference name="permissions" value="none"/>-->
