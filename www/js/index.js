@@ -158,7 +158,7 @@ var app = {
 				//no startpage present -> config error;
 				app.configerr();
 		}).fail(app.configerr);
-	},
+	}
 
 }
 
