@@ -11,7 +11,7 @@
   <plugin name="cordova-plugin-whitelist" source="npm"/>
   <plugin name="cordova-plugin-geolocation" source="npm"/>
   <plugin spec="https://github.com/atkjumedia/dcsync.git"/>
-  <plugin spec="https://github.com/kju-digital-solutions/cordova-plugin-ibeacon"/>
+  <plugin spec="https://github.com/kju-digital-solutions/cordova-plugin-ibeacon#60c9ff1"/>
   <plugin name="ionic-plugin-keyboard" source="npm"/>
   <plugin spec="https://github.com/EddyVerbruggen/cordova-plugin-local-notifications" />
   <plugin name="cordova-plugin-background-mode" source="npm"/>
