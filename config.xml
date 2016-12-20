@@ -13,7 +13,7 @@
   <plugin spec="https://github.com/atkjumedia/dcsync.git"/>
   <plugin spec="https://github.com/kju-digital-solutions/cordova-plugin-ibeacon"/>
   <plugin name="ionic-plugin-keyboard" source="npm"/>
-  <plugin spec="https://github.com/willyboy/cordova-plugin-local-notifications.git#0c23603 " />
+  <plugin spec="https://github.com/EddyVerbruggen/cordova-plugin-local-notifications" />
   <plugin name="cordova-plugin-background-mode" source="npm"/>
   <plugin name="cordova-plugin-x-toast" source="npm" />
   <plugin name="cordova-plugin-inappbrowser" source="npm"/>
