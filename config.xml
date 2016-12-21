@@ -14,7 +14,7 @@
   <plugin spec="https://github.com/kju-digital-solutions/cordova-plugin-ibeacon#60c9ff1"/>
   <plugin name="ionic-plugin-keyboard" source="npm"/>
   <plugin name="cordova.plugins.diagnostic" source="npm" />
-  <plugin spec="https://github.com/EddyVerbruggen/cordova-plugin-local-notifications" />
+  <plugin spec="https://github.com/kju-digital-solutions/cordova-plugin-local-notifications#3ebb629" />
   <plugin name="cordova-plugin-background-mode" source="npm"/>
   <plugin name="cordova-plugin-x-toast" source="npm" />
   <plugin name="cordova-plugin-inappbrowser" source="npm"/>
