@@ -15,7 +15,7 @@
   <plugin name="ionic-plugin-keyboard" source="npm"/>
   <plugin name="cordova.plugins.diagnostic" source="npm" />
   <plugin spec="https://github.com/EddyVerbruggen/cordova-plugin-local-notifications" />
-  <plugin spec="https://github.com/danwilson/google-analytics-plugin#3ebb629"/>
+  <plugin spec="https://github.com/kju-digital-solutions/google-analytics-plugin#3ebb629"/>
   <plugin name="cordova-plugin-background-mode" source="npm"/>
   <plugin name="cordova-plugin-x-toast" source="npm" />
   <plugin name="cordova-plugin-inappbrowser" source="npm"/>
