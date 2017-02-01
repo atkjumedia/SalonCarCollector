@@ -103,6 +103,7 @@
     <gap:splash gap:platform="android" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" gap:qualifier="port-xxxhdpi"/>
   
   <icon src="resources/ios/icon/icon-small@3x.png"/>
+  <preference name="phonegap-version" value="cli-6.4.0" />
   <preference name="android-minSdkVersion" value="19" />
   <preference name="auto-hide-splash-screen" value="false" />
   <preference name="SplashScreen" value="splash" />
