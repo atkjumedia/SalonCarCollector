@@ -23,6 +23,7 @@
   <plugin name="cordova-plugin-console" source="npm"/>
   <plugin name="cordova-plugin-app-version" source="npm" />
   <plugin name="cordova-plugin-statusbar" source="npm"/>
+  <plugin name="cordova-plugin-backbutton" source="npm"/>
 
   <!-- <preference name="permissions" value="none"/>-->
   <feature name="http://api.phonegap.com/1.0/geolocation" />
