@@ -38,9 +38,9 @@ var app = {
             } else {
                $this.onOnline();
         }
-    }
-    onOnline = function() {
-        window.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app/index.html";
+    },
+    onOnline : function() {
+        window.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app/index.html?disableauth=1";
     }
 
 }
