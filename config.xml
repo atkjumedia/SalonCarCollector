@@ -19,6 +19,10 @@
   <plugin name="cordova-plugin-app-version" source="npm" />
   <plugin name="cordova-plugin-statusbar" source="npm"/>
   <plugin name="cordova-plugin-backbutton" source="npm"/>
+  <plugin name="cordova-plugin-camera"  source="npm" >
+     <variable name="CAMERA_USAGE_DESCRIPTION" value="take pictures of energyefficient cars" />
+     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="submit photos of energyefficent cars" />
+  </plugin>
 
   <!-- <preference name="permissions" value="none"/>-->
   <feature name="http://api.phonegap.com/1.0/geolocation" />
