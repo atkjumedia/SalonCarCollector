@@ -40,7 +40,7 @@ var app = {
         }
     }
     onOnline = function() {
-        window.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app";
+        window.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app/index.html";
     }
 
 }
