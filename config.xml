@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="at.kju.saloncarcollector" version="2.0.2" xmlns="http://www.w3.org/ns/widgets"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="at.kju.saloncarcollector" version="2.0.3" xmlns="http://www.w3.org/ns/widgets"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>Salon Car Collector</name>
   <description>
         CO2-Tieferlegen App including Salon Car Collector
@@ -104,7 +104,7 @@
     <gap:splash gap:platform="android" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" gap:qualifier="port-xxxhdpi"/>
   
   <icon src="resources/ios/icon/icon-small@3x.png"/>
-  <preference name="phonegap-version" value="cli-6.4.0" />
+  <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="android-minSdkVersion" value="19" />
   <preference name="auto-hide-splash-screen" value="false" />
   <preference name="SplashScreen" value="splash" />
