@@ -14,7 +14,7 @@ var app = {
     $this:null,
 
     initialize: function() {
-        this.$this = this;
+        $this = this;
 		this.lang = navigator.language.slice(0,2);
 	
 		if (this.lang == "de" || this.lang == "it" || this.lang == "fr")
@@ -40,7 +40,13 @@ var app = {
         }
     },
     onOnline : function() {
-        window.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app/index.html?disableauth=1";
+        navigator.splashscreen.hide();
+        //document.location="http://ch-co2tieferlegen.preview.kju.at/co2tl_app/index.html?disableauth=1";
+        var assets = window.location.toString().split('/').slice(0,-2).join('/');
+        document.getElementById('url').value = "http://192.168.1.42:59595/co2tl_app/index.html?assets=" + encodeURIComponent(assets);
+        document.getElementById('go').onclick=function() {
+         document.location = document.getElementById('url').value
+        }
     }
 
 }

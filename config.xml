@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="at.kju.saloncarcollector" version="2.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="at.kju.saloncarcollector" version="2.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Salon Car Collector</name>
     <description>
         CO2-Tieferlegen App including Salon Car Collector
@@ -89,6 +89,7 @@
     <preference name="autoHideSplashScreen" value="false" />
     <preference name="deployment-target" value="9.0" />
     <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
     <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
     <plugin name="cordova-plugin-backbutton" spec="^0.3.0" />
     <plugin name="cordova-plugin-camera" spec="^2.4.1">
@@ -97,6 +98,7 @@
     </plugin>
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
+    <plugin name="cordova-plugin-file" spec="^4.3.3" />
     <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.4" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
