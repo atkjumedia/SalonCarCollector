@@ -18,49 +18,49 @@
     <allow-navigation href="https://*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon density="ldpi" src="resources/ndroid/con/rawable-ldpi-icon.png" />
-        <icon density="mdpi" src="resources/ndroid/con/rawable-mdpi-icon.png" />
-        <icon density="hdpi" src="resources/ndroid/con/rawable-hdpi-icon.png" />
-        <icon density="xhdpi" src="resources/ndroid/con/rawable-xhdpi-icon.png" />
-        <splash density="land-ldpi" src="resources/ndroid/plash/rawable-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="resources/ndroid/plash/rawable-land-mdpi-screen.png" />
-        <splash density="land-hdpi" src="resources/ndroid/plash/rawable-land-hdpi-screen.png" />
-        <splash density="land-xhdpi" src="resources/ndroid/plash/rawable-land-xhdpi-screen.png" />
-        <splash density="land-xxhdpi" src="resources/ndroid/plash/rawable-land-xxhdpi-screen.png" />
-        <splash density="land-xxxhdpi" src="resources/ndroid/plash/rawable-land-xxxhdpi-screen.png" />
-        <splash density="port-ldpi" src="resources/ndroid/plash/rawable-port-ldpi-screen.png" />
-        <splash density="port-mdpi" src="resources/ndroid/plash/rawable-port-mdpi-screen.png" />
-        <splash density="port-hdpi" src="resources/ndroid/plash/rawable-port-hdpi-screen.png" />
-        <splash density="port-xhdpi" src="resources/ndroid/plash/rawable-port-xhdpi-screen.png" />
-        <splash density="port-xxhdpi" src="resources/ndroid/plash/rawable-port-xxhdpi-screen.png" />
-        <splash density="port-xxxhdpi" src="resources/ndroid/plash/rawable-port-xxxhdpi-screen.png" />
+        <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+        <splash density="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="resources/android/splash/drawable-land-mdpi-screen.png" />
+        <splash density="land-hdpi" src="resources/android/splash/drawable-land-hdpi-screen.png" />
+        <splash density="land-xhdpi" src="resources/android/splash/drawable-land-xhdpi-screen.png" />
+        <splash density="land-xxhdpi" src="resources/android/splash/drawable-land-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+        <splash density="port-ldpi" src="resources/android/splash/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="resources/android/splash/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="resources/android/splash/drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <icon height="57" src="resources/os/con/con.png" width="57" />
-        <icon height="40" src="resources/os/con/con-40.png" width="40" />
-        <icon height="80" src="resources/os/con/con-40@2x.png" width="80" />
-        <icon height="50" src="resources/os/con/con-50.png" width="50" />
-        <icon height="100" src="resources/os/con/con-50@2x.png" width="100" />
-        <icon height="60" src="resources/os/con/con-60.png" width="60" />
-        <icon height="72" src="resources/os/con/con-72.png" width="72" />
-        <icon height="76" src="resources/os/con/con-76.png" width="76" />
-        <icon height="29" src="resources/os/con/con-small.png" width="29" />
-        <icon height="58" src="resources/os/con/con-small@2x.png" width="58" />
-        <icon height="87" src="resources/os/con/con-small@3x.png" width="87" />
-        <splash height="1136" src="resources/os/plash/efault-568h@2x~iphone.png" width="640" />
-        <splash height="1334" src="resources/os/plash/efault-667h.png" width="750" />
-        <splash height="2208" src="resources/os/plash/efault-736h.png" width="1242" />
-        <splash height="1242" src="resources/os/plash/efault-Landscape-736h.png" width="2208" />
-        <splash height="1536" src="resources/os/plash/efault-Landscape@2x~ipad.png" width="2048" />
-        <splash height="2048" src="resources/os/plash/efault-Landscape@~ipadpro.png" width="2732" />
-        <splash height="768" src="resources/os/plash/efault-Landscape~ipad.png" width="1024" />
-        <splash height="2048" src="resources/os/plash/efault-Portrait@2x~ipad.png" width="1536" />
-        <splash height="2732" src="resources/os/plash/efault-Portrait@~ipadpro.png" width="2048" />
-        <splash height="1024" src="resources/os/plash/efault-Portrait~ipad.png" width="768" />
-        <splash height="960" src="resources/os/plash/efault@2x~iphone.png" width="640" />
-        <splash height="480" src="resources/os/plash/efault~iphone.png" width="320" />
+        <icon height="57" src="resources/ios/icon/icon.png" width="57" />
+        <icon height="40" src="resources/ios/icon/icon-40.png" width="40" />
+        <icon height="80" src="resources/ios/icon/icon-40@2x.png" width="80" />
+        <icon height="50" src="resources/ios/icon/icon-50.png" width="50" />
+        <icon height="100" src="resources/ios/icon/icon-50@2x.png" width="100" />
+        <icon height="60" src="resources/ios/icon/icon-60.png" width="60" />
+        <icon height="72" src="resources/ios/icon/icon-72.png" width="72" />
+        <icon height="76" src="resources/ios/icon/icon-76.png" width="76" />
+        <icon height="29" src="resources/ios/icon/icon-small.png" width="29" />
+        <icon height="58" src="resources/ios/icon/icon-small@2x.png" width="58" />
+        <icon height="87" src="resources/ios/icon/icon-small@3x.png" width="87" />
+        <splash height="1136" src="resources/ios/splash/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" src="resources/ios/splash/Default-667h.png" width="750" />
+        <splash height="2208" src="resources/ios/splash/Default-736h.png" width="1242" />
+        <splash height="1242" src="resources/ios/splash/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" src="resources/ios/splash/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="2048" src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="2732" />
+        <splash height="768" src="resources/ios/splash/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" src="resources/ios/splash/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="2732" src="resources/ios/splash/Default-Portrait@~ipadpro.png" width="2048" />
+        <splash height="1024" src="resources/ios/splash/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
+        <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     </platform>
     <gap:splash gap:platform="android" src="resources/android/splash/drawable-port-mdpi-screen.png" />
     <gap:splash gap:platform="android" gap:qualifier="land-ldpi" src="resources/android/splash/drawable-land-ldpi-screen.png" />
@@ -75,7 +75,7 @@
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-    <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <preference name="phonegap-version" value="cli-7.0.1" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="auto-hide-splash-screen" value="false" />
