@@ -45,18 +45,7 @@
      <icon src="res/icons/ios/icon-76.png" gap:platform="ios" height="76" width="76" />
      <icon src="res/icons/ios/icon-76-2x.png" gap:platform="ios" height="152" width="152" />
      <icon src="res/icons/ios/icon-83.5-2x.png" gap:platform="ios" height="167" width="167" />
-     <splash src="res/screens/ios/screen-iphone-568h-2x.png" gap:platform="ios" width="640" height="1136" />
-     <splash src="res/screens/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
-     <splash src="res/screens/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
-     <splash src="res/screens/ios/screen-iphone-portrait-667h.png" gap:platform="ios" width="750" height="1334" />
-     <splash src="res/screens/ios/screen-iphone-portrait-736h.png" gap:platform="ios" width="1242" height="2208" />
-     <splash src="res/screens/ios/screen-iphone-landscape-736h.png" gap:platform="ios" width="2208" height="1242" />
-     <splash src="res/screens/ios/screen-ipad-portrait.png" gap:platform="ios" width="768" height="1024" />
-     <splash src="res/screens/ios/screen-ipad-portrait-2x.png" gap:platform="ios" width="1536" height="2048" />
-     <splash src="res/screens/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768" />
-     <splash src="res/screens/ios/screen-ipad-landscape-2x.png" gap:platform="ios" width="2048" height="1536" />
-     <splash src="res/screens/ios/screen-ipad-landscape-ipadpro.png" gap:platform="ios" width="2732" height="2048" />
-     <splash src="res/screens/ios/screen-ipad-portrait-ipadpro.png" gap:platform="ios" width="2048" height="2732" />
+  
     
     <icon   gap:platform="android" density="ldpi" src="res/icons/android/icon-36-ldpi.png" />
     <icon   gap:platform="android" density="mdpi" src="res/icons/android/icon-48-mdpi.png" />
